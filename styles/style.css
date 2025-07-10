@@ -142,13 +142,7 @@
   margin-top:137px;
 
 }
-.wrap{
-  align-items:center;
-  justify-content:center;
-  padding: 10px;
-  text-align:justify;
-  display:flex;
-}
+
 .Common{
   background-color:#D6DDED;
   display: flex;
@@ -186,26 +180,60 @@ form input[type="Email"]{
      border: none;
      margin-bottom:19px;
      color: #000000;
+     justify-content: space-between;
 }
 .Name{
      border-radius:10px;
-     padding:10px 40px;
+     padding: 10px 40px; 
      display: block;
      width:100%;
      border: none;
      margin-bottom:19px;
      color: #000000;
+     justify-content: space-between;
 }
 .Message{
   border-radius:10px;
-  padding:10px;
   display: block;
   border: none;
   margin-bottom:19px;
   height:100px;
   max-width:400px;
   color:#000000;
+  justify-content: space-between;
 }
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top:104px;
+  margin-left:574px;
+  margin-right:575px;
+  margin-bottom:103px;
+}
+.footer-column h1{
+  font-weight: bold;
+  font-size:100px;
+  color:#4E47FF;
+  margin-bottom:8px;
+}
+.footer-column p{
+  text-align: center;
+  color:#8987A1;
+  margin-bottom:20px;
+}
+.footer-column a{
+   text-align: center;
+   list-style: none;
+   box-shadow: none;
+   text-decoration:none;
+   text-shadow: none;
+   padding:10px;
+   color: #8987A1;
+}
+  
+
 
 
 
