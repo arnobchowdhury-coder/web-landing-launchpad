@@ -142,17 +142,19 @@
   padding:10px 20px;
   color: #252432;
   margin-top:137px;
+  margin-left:151px;
+  margin-right:149px;
 }
 .testo-container{
-  justify-content:center;
   display: flex;
-  align-items: baseline;
+  justify-content: center;
+  align-items: center;
   padding:10px;
   margin-left:149px;
   margin-right:151px;
-  text-align: center;
   padding-left:20px;
   margin-top: 50px;
+  gap:20px;
 }
 
 
@@ -193,7 +195,7 @@ form input[type="Email"]{
      border: none;
      margin-bottom:19px;
      color: #000000;
-     justify-content: space-between;
+     justify-content:end;
 }
 .Name{
      border-radius:10px;
@@ -203,7 +205,7 @@ form input[type="Email"]{
      border: none;
      margin-bottom:19px;
      color: #000000;
-     justify-content: space-between;
+     justify-content:end;
 }
 .Message{
   border-radius:10px;
@@ -213,7 +215,7 @@ form input[type="Email"]{
   height:100px;
   max-width:400px;
   color:#000000;
-  justify-content: space-between;
+  justify-content:end;
 }
 .footer-container{
   display: flex;
