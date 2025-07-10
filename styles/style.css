@@ -55,5 +55,33 @@
   border: none;
   margin-top: 50px;
   margin-bottom:152px;
-
+}
+.action{
+  display: flex;
+  margin-top:116px;
+  margin-left:140px;
+  margin-right:160px;
+  gap:220px;
+  justify-content: space-between;
+}
+.img{
+  border-radius: 48px;
+  image-resolution:1px;
+  border: none;
+}
+.see{
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 23px;
+}
+.launch{
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  border-radius:10px;
+  padding: 10px;
+  border: none;
+}
+.ital{
+  margin-top:62.5px;
+  text-align: justify;
 }
