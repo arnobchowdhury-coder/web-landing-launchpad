@@ -132,16 +132,29 @@
 }
 .testo{
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .testo h1{
   font-size:42px;
-  font-weight:500;
+  font-weight:bold;
   padding:10px 20px;
   color: #252432;
   margin-top:137px;
-
 }
+.testo-container{
+  justify-content:center;
+  display: flex;
+  align-items: baseline;
+  padding:10px;
+  margin-left:149px;
+  margin-right:151px;
+  text-align: center;
+  padding-left:20px;
+  margin-top: 50px;
+}
+
 
 .Common{
   background-color:#D6DDED;
@@ -231,6 +244,18 @@ form input[type="Email"]{
    text-shadow: none;
    padding:10px;
    color: #8987A1;
+}
+.launch:hover{
+  background-color:red;
+  cursor: pointer;
+}
+.Sig:hover{
+  background-color: green;
+  cursor: move;
+}
+.button:hover{
+  background-color:tomato;
+  cursor: zoom-in;
 }
   
 
